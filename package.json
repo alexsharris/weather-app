@@ -1,0 +1,27 @@
+{
+  "name": "lab8-weather-app-node-js-express-js-alexsharris",
+  "version": "1.0.0",
+  "description": "weather-app",
+  "keywords": [
+    "weather"
+  ],
+  "homepage": "https://github.com/comp1537-w26/lab8-weather-app-node-js-express-js-alexsharris#readme",
+  "bugs": {
+    "url": "https://github.com/comp1537-w26/lab8-weather-app-node-js-express-js-alexsharris/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp1537-w26/lab8-weather-app-node-js-express-js-alexsharris.git"
+  },
+  "license": "ISC",
+  "author": "alex",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "text"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "express": "^5.2.1"
+  }
+}
