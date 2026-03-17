@@ -32,7 +32,7 @@ app.get("/weather", (req, res) => {
 });
 
 
-const PORT = 'https://weather-app-qzm3.onrender.com';
+const PORT = process.env.PORT || 3000;;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
