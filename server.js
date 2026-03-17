@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 });
 
 //Request weather data
-app.get("/weather", (req, res) => {
+app.get("https://weather-app-qzm3.onrender.com/weather", (req, res) => {
   const city = req.query.city;
   if(!city) return res.status(400).json({error: "City is required"});
 
